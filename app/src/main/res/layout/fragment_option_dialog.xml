@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context=".OptionDialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who is the best coach Barcelona FC?"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioGroup
+            android:id="@+id/rg_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/rb_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iremiew"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            <RadioButton
+                android:id="@+id/rb_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phoenix"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            <RadioButton
+                android:id="@+id/rb_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gary Geen"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            <RadioButton
+                android:id="@+id/rb_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pep"/>
+        </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Close"
+            android:layout_marginRight="4dp"
+            />
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Pilih"
+            android:layout_marginLeft="4dp"
+            />
+    </LinearLayout>
+</LinearLayout>
